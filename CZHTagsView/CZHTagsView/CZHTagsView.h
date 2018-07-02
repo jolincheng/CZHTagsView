@@ -98,12 +98,21 @@ typedef NS_ENUM(NSInteger, CZHTagsViewSelectMode) {
 ///代理
 @property (nonatomic, weak) id<CZHTagsViewDataSource> dataSource;
 
+
 - (instancetype)initWithFrame:(CGRect)frame style:(CZHTagsViewStyle)style;
+
 
 - (instancetype)initWithFrame:(CGRect)frame style:(CZHTagsViewStyle)style selectMode:(CZHTagsViewSelectMode)selectMode;
 
+/**
+ * frame : 高度为0的时候默认自适应高度计算
+ * CZHTagsViewStyle : 每个标签两边的留白
+ * selectMode       : 选中模式 单选和多选
+ * displayMode      : 当一个标签超过视图的宽度设置内容自适应优先或者留白优先
+ */
 - (instancetype)initWithFrame:(CGRect)frame style:(CZHTagsViewStyle)style selectMode:(CZHTagsViewSelectMode)selectMode displayMode:(CZHTagsViewDisplayMode)displayMode;
 
+//刷新
 - (void)reloadData;
 
 @end
