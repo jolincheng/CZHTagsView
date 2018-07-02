@@ -1,4 +1,10 @@
 # CZHTagsView
+
+![公司的项目.png](https://upload-images.jianshu.io/upload_images/6709174-4b217cb5f07b1f6f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+公司的项目，求支持，如果发现什么问题，可以留言反应，感激不尽
+
+
 标签页,可以自适应高度,支持单选多选,修改选中状态和默认状态各种参数,
 
 ![QQ20180702-180020----.gif](https://upload-images.jianshu.io/upload_images/6709174-8665e808960a9edc.gif?imageMogr2/auto-orient/strip)
@@ -182,5 +188,4 @@ typedef NS_ENUM(NSInteger, CZHTagsViewSelectMode) {
 [博客地址](https://blog.csdn.net/HurryUpCheng)
 [简书地址](https://www.jianshu.com/p/882c41abccd1)
 
-![公司的项目.png](https://upload-images.jianshu.io/upload_images/6709174-4b217cb5f07b1f6f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-公司的项目，求支持，如果发现什么问题，可以留言反应，感激不尽
+
